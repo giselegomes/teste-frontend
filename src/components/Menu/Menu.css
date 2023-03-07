@@ -1,0 +1,44 @@
+.menu {
+    min-width: 25%;
+}
+
+.menu .perfil {
+    background-color: var(--secondary-bg-color);
+    color: var(--main-text-color);
+    width: 80%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 16px;
+    display: grid;
+    grid-template-areas:
+    "photo name"
+    "photo plan";
+    align-items: center;
+    justify-content: center;
+}
+
+.menu .perfil .perfil__photo {
+    grid-area: photo;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.menu .perfil .perfil__name {
+    grid-area: name;
+    padding-left: 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.menu .perfil .perfil__plan {
+    grid-area: plan;
+    padding-left: 0.75rem;
+    font-size: 0.875rem;
+}
+
+.menu .perfil__plan--type {
+    color: var(--secondary-text-color);
+}
+
+

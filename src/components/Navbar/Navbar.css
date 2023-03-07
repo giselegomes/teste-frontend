@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondary-bg-color);
+    color: var(--main-text-color);
+    padding: 1rem 2rem;
+}
+
+.navbar .navbar__list {
+    display: flex;
+    column-gap: 16px;
+}
+
+.navbar .navbar__list li:hover {
+    text-decoration: underline;
+}

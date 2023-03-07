@@ -1,0 +1,23 @@
+.cards {
+    width: 75%;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    padding: 1rem;
+}
+
+.cards .cards__item {
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 10px;
+    transition: all 0.3s;
+}
+
+.cards .cards__item:hover {
+   transform: scale(1.1);
+}
+
+
+.cards .cards__item p + a{
+    font-family: 'Oxanium', cursive;
+}
