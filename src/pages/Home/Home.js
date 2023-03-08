@@ -4,6 +4,7 @@ import Cards from "../../components/Cards/Cards";
 import "./Home.css"
 
 function Home() {
+
     return (
         <>
             <Navbar />
