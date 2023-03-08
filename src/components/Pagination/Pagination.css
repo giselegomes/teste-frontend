@@ -1,0 +1,21 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    margin: 32px 16px;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 992px) {
+    .pagination {
+        gap: 10px;
+        margin: 32px 0;
+    }
+}
+
+.pagination button {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: none;
+}

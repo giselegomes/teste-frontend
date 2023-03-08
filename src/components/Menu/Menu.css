@@ -11,10 +11,20 @@
     border-radius: 16px;
     display: grid;
     grid-template-areas:
-    "photo name"
-    "photo plan";
+    "photo photo"
+    "name name"
+    "plan plan";
     align-items: center;
     justify-content: center;
+
+}
+
+@media screen and (min-width: 992px) {
+    .menu .perfil {
+    grid-template-areas:
+    "photo name"
+    "photo plan"; 
+    }
 }
 
 .menu .perfil .perfil__photo {
@@ -39,6 +49,32 @@
 
 .menu .perfil__plan--type {
     color: var(--secondary-text-color);
+}
+
+.menu .list {
+    width: 80%;
+    margin: 0 auto;
+    color: var(--main-text-color);
+}
+
+.menu .list .list__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.menu .list .list__item {
+    display: flex;
+    align-items: center;
+    padding: 0 0 12px 13px;
+    column-gap: 8px;
+    line-height: 28px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.menu .list .list__item:hover {
+    font-style: italic;
 }
 
 
